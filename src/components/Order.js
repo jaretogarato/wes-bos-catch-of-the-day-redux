@@ -3,23 +3,9 @@ import React, { Component } from 'react';
 class Order extends React.Component {
   render() {
     return (
-      <header className="top">
-        <h1>
-          Catch
-          <span className='ofThe'>
-            <span className="of">
-              of
-            </span>
-            <span className="the">
-              the
-            </span>
-          </span>
-          day
-        </h1>
-        <h3 className="tagline">
-          <span>Fresh Seafood Market</span>
-        </h3>
-      </header>
+      <div className="order">
+        <h1>Order</h1>
+      </div>
 
     )
   }
