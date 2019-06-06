@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
-// import { Component } from 'react';
 import { render } from 'react-dom';
-import StorePicker from './components/StorePicker';
+// import StorePicker from './components/StorePicker';
+import "./css/style.css";
+import App from './components/App';
 
-// render (<p> HEYYY </p>, document.querySelector('#main'));
-render (<StorePicker />, document.querySelector('#main'));
+// render (<StorePicker />, document.querySelector('#main'));
+render (<App />, document.querySelector('#main'));
